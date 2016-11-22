@@ -10,7 +10,7 @@ namespace SimpleBlog.Controllers
     {
         public ActionResult Index()
         {
-            return Content("Hello, Wordl!");
+            return View();
         }
     }
 }

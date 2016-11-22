@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title - SimpleBlog</title>
+</head>
+<body>
+    <header>
+
+        <h1><a href="@Url.RouteUrl("home")">Simple Blog</a></h1 Blog>
+
+        <h3><a href="@Url.RouteUrl("login")">Login</a></h3>
+    </header>
+
+    @RenderBody()
+
+    @RenderSection("Scripts", false)
+
+</body>
+</html>
