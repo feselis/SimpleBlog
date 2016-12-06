@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleBlog.ViewsModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,21 @@ namespace SimpleBlog.Controllers
     {
         public ActionResult Login()
         {
-            return View();
+            return View(new AuthLogin() {
+                Username = "Oi, Felipe!"
+            });
+        }
+
+        [HttpPost]
+        public ActionResult Login(AuthLogin form)
+        {
+
+            if (form.Username != "Felipe")
+            {
+                return View();
+            }
+
+            return Content("Olá, " + form.Username);
         }
     }
 }

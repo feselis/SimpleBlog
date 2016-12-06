@@ -1,13 +1,23 @@
-﻿@{ 
+﻿@model SimpleBlog.ViewsModels.AuthLogin
+
+@{ 
     ViewBag.Title = "Login";
 }
 
-@section Scripts
+@using(Html.BeginForm())
 {
-    <script>
-        alert("Você está na página de Login");
-    </script>
+    <div>
+        @Html.LabelFor(x => x.Username)
+        @Html.EditorFor(x => x.Username)
+    </div>
+    
+    <div>
+        @Html.LabelFor(x => x.Password)
+        @Html.EditorFor(x => x.Password)
+    </div>
+    
+    <div>
+        <input type="submit" value="Login"/>
+    </div>
 }
-
-<h1>THIS IS THE LOGIN VIEW!</h1>
 
