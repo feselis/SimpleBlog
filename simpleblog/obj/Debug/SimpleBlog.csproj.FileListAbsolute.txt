@@ -23,6 +23,6 @@ C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.Razor.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.WebPages.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.WebPages.Razor.xml
-C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.dll
 C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.pdb
+C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csprojResolveAssemblyReference.cache
