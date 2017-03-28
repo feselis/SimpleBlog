@@ -1,4 +1,6 @@
-﻿@{
+﻿@using System.Web.Optimization;
+
+@{
     Layout = null;
 }
 
@@ -7,11 +9,16 @@
 <html>
 <head>
     <title>@ViewBag.Title - SimpleBlog</title>
+
+    @Styles.Render("~/styles")
 </head>
 <body>
     <header>
 
-        <h1><a href="@Url.RouteUrl("home")">Simple Blog</a></h1 Blog>
+        <h1>
+            <a href="@Url.RouteUrl("home")">Simple Blog</a>
+            <i class="glyphicon glyphicon-apple"></i>
+        </h1>
 
         @if (User.Identity.IsAuthenticated)
         {
@@ -28,7 +35,7 @@
         }
         else
         {
-            <a href="@Url.RouteUrl("login")"></a>
+            <a href="@Url.RouteUrl("login")">Click here to login</a>
         }
 
     </header>

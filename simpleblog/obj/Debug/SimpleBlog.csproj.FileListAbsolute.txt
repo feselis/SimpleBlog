@@ -25,4 +25,9 @@ C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.WebPages.Razor.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.dll
 C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.pdb
+C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.Optimization.dll
+C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\WebGrease.dll
+C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\SimpleBlog\SimpleBlog\bin\System.Web.Optimization.xml
 C:\Users\Usuario\SimpleBlog\SimpleBlog\obj\Debug\SimpleBlog.csprojResolveAssemblyReference.cache

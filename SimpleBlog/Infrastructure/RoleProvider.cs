@@ -9,7 +9,7 @@ namespace SimpleBlog.Infrastructure
     {
 
         public override string[] GetRolesForUser(string username)
-      {
+        {
             if (username == "felipeselis")
                 return new[] { "admin" };
 
